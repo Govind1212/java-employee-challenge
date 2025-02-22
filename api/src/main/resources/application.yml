@@ -1,2 +1,11 @@
-spring.application.name: employee-api
-server.port: 8111
+spring:
+   application:
+      name: employee-api
+server:
+   port: 8111
+   address: localhost
+com:
+   reliaquest:
+      employee:
+         api:
+            base-url: http://localhost:8112/api/v1/employee

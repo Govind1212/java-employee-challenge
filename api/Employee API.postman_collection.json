@@ -1,0 +1,572 @@
+{
+	"info": {
+		"_postman_id": "17c03362-6717-4929-ab02-776f9d218d65",
+		"name": "Employee API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42495704"
+	},
+	"item": [
+		{
+			"name": "Get All Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8111/api/v1/employee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8111",
+					"path": [
+						"api",
+						"v1",
+						"employee"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8111/api/v1/employee",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8111",
+							"path": [
+								"api",
+								"v1",
+								"employee"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 15:15:52 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"ab9a0123-308d-466a-8337-0615f3bfe877\",\n        \"employee_name\": \"Isaiah Medhurst\",\n        \"employee_salary\": 460212,\n        \"employee_age\": 27,\n        \"employee_title\": \"Real-Estate Supervisor\",\n        \"employee_email\": \"northernlightz@company.com\"\n    },\n    {\n        \"id\": \"e28f1c27-d296-48af-b09c-cae661fefe8b\",\n        \"employee_name\": \"Mr. Emmitt Lehner\",\n        \"employee_salary\": 412433,\n        \"employee_age\": 62,\n        \"employee_title\": \"Legacy Design Designer\",\n        \"employee_email\": \"span@company.com\"\n    },\n    {\n        \"id\": \"593a72cd-afa6-4c7d-8728-2a8119eff8f4\",\n        \"employee_name\": \"Faustino Hackett\",\n        \"employee_salary\": 358950,\n        \"employee_age\": 21,\n        \"employee_title\": \"Internal Banking Analyst\",\n        \"employee_email\": \"littlemomma03@company.com\"\n    },\n    {\n        \"id\": \"cbadee02-4e86-43ac-9cb6-8fddeb08cae8\",\n        \"employee_name\": \"Joseph Klein\",\n        \"employee_salary\": 370065,\n        \"employee_age\": 16,\n        \"employee_title\": \"Central Technology Architect\",\n        \"employee_email\": \"ventosanzap@company.com\"\n    },\n    {\n        \"id\": \"5642e5f2-b696-4944-9ef7-02d887ab2358\",\n        \"employee_name\": \"Dede Rohan\",\n        \"employee_salary\": 160217,\n        \"employee_age\": 63,\n        \"employee_title\": \"Central Legal Director\",\n        \"employee_email\": \"littlemomma03@company.com\"\n    },\n    {\n        \"id\": \"8cc0bf76-ab25-49f6-9d3e-d2e835987500\",\n        \"employee_name\": \"Mrs. Micheal Wintheiser\",\n        \"employee_salary\": 111709,\n        \"employee_age\": 20,\n        \"employee_title\": \"Lead Engineer\",\n        \"employee_email\": \"veribet@company.com\"\n    },\n    {\n        \"id\": \"24ff9cd1-31a8-4796-81e7-e7711d3581b8\",\n        \"employee_name\": \"Denisse Weimann\",\n        \"employee_salary\": 386552,\n        \"employee_age\": 42,\n        \"employee_title\": \"Future IT Analyst\",\n        \"employee_email\": \"overhold@company.com\"\n    },\n    {\n        \"id\": \"c4a01076-a905-4427-8a80-41a2c8813140\",\n        \"employee_name\": \"Earnest Bruen\",\n        \"employee_salary\": 406050,\n        \"employee_age\": 18,\n        \"employee_title\": \"Administration Agent\",\n        \"employee_email\": \"teejay_thompson@company.com\"\n    },\n    {\n        \"id\": \"6abf089a-f3ad-42eb-af56-1aa9f5061ff6\",\n        \"employee_name\": \"Jacqualine Sauer\",\n        \"employee_salary\": 440081,\n        \"employee_age\": 20,\n        \"employee_title\": \"Chief Community-Services Strategist\",\n        \"employee_email\": \"imdahdude@company.com\"\n    },\n    {\n        \"id\": \"0d76716c-9ed7-4d1d-9168-d3061482ea53\",\n        \"employee_name\": \"Raye Collier\",\n        \"employee_salary\": 38719,\n        \"employee_age\": 54,\n        \"employee_title\": \"Dynamic Officer\",\n        \"employee_email\": \"alpha@company.com\"\n    },\n    {\n        \"id\": \"98e8d534-dd60-4fa3-af6e-fdbc4705e642\",\n        \"employee_name\": \"Dora Weimann\",\n        \"employee_salary\": 140656,\n        \"employee_age\": 52,\n        \"employee_title\": \"Administration Executive\",\n        \"employee_email\": \"latlux@company.com\"\n    },\n    {\n        \"id\": \"108665c3-1512-489f-8138-37335f0c56a2\",\n        \"employee_name\": \"Jospeh Fay\",\n        \"employee_salary\": 222627,\n        \"employee_age\": 49,\n        \"employee_title\": \"Corporate Designer\",\n        \"employee_email\": \"2legit2quit@company.com\"\n    },\n    {\n        \"id\": \"019bc8c9-0b8e-47d8-ad65-f1a1332348ce\",\n        \"employee_name\": \"Herb Kilback\",\n        \"employee_salary\": 104616,\n        \"employee_age\": 23,\n        \"employee_title\": \"Forward Real-Estate Orchestrator\",\n        \"employee_email\": \"omg_its_laura@company.com\"\n    },\n    {\n        \"id\": \"ebf48f37-c7cb-4847-a70c-a2e27f56e35f\",\n        \"employee_name\": \"Mr. Beatriz Price\",\n        \"employee_salary\": 177921,\n        \"employee_age\": 16,\n        \"employee_title\": \"International Real-Estate Engineer\",\n        \"employee_email\": \"bitchin_blair@company.com\"\n    },\n    {\n        \"id\": \"c52c33c3-9012-471a-9a39-a66e8c1c750d\",\n        \"employee_name\": \"Michale Lehner\",\n        \"employee_salary\": 38834,\n        \"employee_age\": 62,\n        \"employee_title\": \"International Administrator\",\n        \"employee_email\": \"zathin@company.com\"\n    },\n    {\n        \"id\": \"0d185fdf-3adf-4974-a58b-6f86ec227259\",\n        \"employee_name\": \"Merle Glover\",\n        \"employee_salary\": 257788,\n        \"employee_age\": 29,\n        \"employee_title\": \"Community-Services Agent\",\n        \"employee_email\": \"cosmococo@company.com\"\n    },\n    {\n        \"id\": \"6b135344-dea6-445d-8cca-1b3a83ba3772\",\n        \"employee_name\": \"Miss Cyril Armstrong\",\n        \"employee_salary\": 367116,\n        \"employee_age\": 35,\n        \"employee_title\": \"Global Legal Engineer\",\n        \"employee_email\": \"span@company.com\"\n    },\n    {\n        \"id\": \"7c59e195-7b5a-4bfa-85d8-5f25ebccfd51\",\n        \"employee_name\": \"Mrs. Elliott Orn\",\n        \"employee_salary\": 212092,\n        \"employee_age\": 46,\n        \"employee_title\": \"Community-Services Administrator\",\n        \"employee_email\": \"stim@company.com\"\n    },\n    {\n        \"id\": \"3877c2df-ca88-4294-a0c0-e36478067ca1\",\n        \"employee_name\": \"My Hermiston\",\n        \"employee_salary\": 491787,\n        \"employee_age\": 65,\n        \"employee_title\": \"Legal Producer\",\n        \"employee_email\": \"bitwolf@company.com\"\n    },\n    {\n        \"id\": \"1f79799f-e0fc-4388-ae97-27588b4a85ea\",\n        \"employee_name\": \"Santiago Hauck DDS\",\n        \"employee_salary\": 173184,\n        \"employee_age\": 36,\n        \"employee_title\": \"Regional Mining Architect\",\n        \"employee_email\": \"tempsoft@company.com\"\n    },\n    {\n        \"id\": \"e2b7fbb7-9eea-4b5e-be5e-0c847cf55595\",\n        \"employee_name\": \"Gerry Christiansen\",\n        \"employee_salary\": 459509,\n        \"employee_age\": 63,\n        \"employee_title\": \"Government Manager\",\n        \"employee_email\": \"bytecard@company.com\"\n    },\n    {\n        \"id\": \"aca2a24c-be6d-42b7-8975-8c401fc8d90a\",\n        \"employee_name\": \"Woodrow Dibbert\",\n        \"employee_salary\": 272542,\n        \"employee_age\": 54,\n        \"employee_title\": \"Global Banking Planner\",\n        \"employee_email\": \"stronghold@company.com\"\n    },\n    {\n        \"id\": \"c3e97659-1d05-471c-baa5-9ea94e0c5454\",\n        \"employee_name\": \"Tatiana Larson\",\n        \"employee_salary\": 33527,\n        \"employee_age\": 45,\n        \"employee_title\": \"Chief Retail Officer\",\n        \"employee_email\": \"bitchin_blair@company.com\"\n    },\n    {\n        \"id\": \"504dde70-35f1-4aaa-9ad1-fe2d51c03006\",\n        \"employee_name\": \"Mark Heathcote\",\n        \"employee_salary\": 117404,\n        \"employee_age\": 66,\n        \"employee_title\": \"Product Farming Associate\",\n        \"employee_email\": \"bitwolf@company.com\"\n    },\n    {\n        \"id\": \"0327b4d2-7b3a-473d-b2fa-4afdfd4bb5ab\",\n        \"employee_name\": \"Pedro Wisoky\",\n        \"employee_salary\": 73009,\n        \"employee_age\": 35,\n        \"employee_title\": \"Administration Representative\",\n        \"employee_email\": \"zaam-dox@company.com\"\n    },\n    {\n        \"id\": \"247afc81-7300-46d2-a67b-1e3d2a274e94\",\n        \"employee_name\": \"Sung Johns PhD\",\n        \"employee_salary\": 350030,\n        \"employee_age\": 64,\n        \"employee_title\": \"International Banking Orchestrator\",\n        \"employee_email\": \"omg_its_laura@company.com\"\n    },\n    {\n        \"id\": \"4ee5ec72-6acc-43c1-9542-157572a08267\",\n        \"employee_name\": \"Miss Everett Medhurst\",\n        \"employee_salary\": 93481,\n        \"employee_age\": 44,\n        \"employee_title\": \"Chief Mining Agent\",\n        \"employee_email\": \"gembucket@company.com\"\n    },\n    {\n        \"id\": \"292591fc-5a2e-4dbb-acb3-08413c7e612a\",\n        \"employee_name\": \"Dr. Nilda Spencer\",\n        \"employee_salary\": 451568,\n        \"employee_age\": 44,\n        \"employee_title\": \"Lead Banking Facilitator\",\n        \"employee_email\": \"northernlightz@company.com\"\n    },\n    {\n        \"id\": \"e1f9df50-a31a-4839-95d4-4c55af65d5f8\",\n        \"employee_name\": \"Bradford Cole\",\n        \"employee_salary\": 257004,\n        \"employee_age\": 52,\n        \"employee_title\": \"Direct Community-Services Associate\",\n        \"employee_email\": \"alphazap@company.com\"\n    },\n    {\n        \"id\": \"9056508c-59b2-40d3-93f0-420dff2df912\",\n        \"employee_name\": \"Mr. Stephan Cassin\",\n        \"employee_salary\": 338340,\n        \"employee_age\": 22,\n        \"employee_title\": \"Senior Hospitality Orchestrator\",\n        \"employee_email\": \"colonelkickass@company.com\"\n    },\n    {\n        \"id\": \"f54290c9-4349-47bc-b060-e69e1c340536\",\n        \"employee_name\": \"Bart Fadel V\",\n        \"employee_salary\": 474000,\n        \"employee_age\": 44,\n        \"employee_title\": \"Retail Supervisor\",\n        \"employee_email\": \"transcof@company.com\"\n    },\n    {\n        \"id\": \"57ec08c2-af31-40f9-9e3f-bea563e3cbf7\",\n        \"employee_name\": \"Alisha Lind\",\n        \"employee_salary\": 232162,\n        \"employee_age\": 57,\n        \"employee_title\": \"Lead Orchestrator\",\n        \"employee_email\": \"holdlamis@company.com\"\n    },\n    {\n        \"id\": \"6dc1f2ca-bc8d-44e8-b3eb-7a18fee3c540\",\n        \"employee_name\": \"Damien Gerhold\",\n        \"employee_salary\": 494917,\n        \"employee_age\": 67,\n        \"employee_title\": \"Administration Officer\",\n        \"employee_email\": \"regrant@company.com\"\n    },\n    {\n        \"id\": \"4ab0b917-1797-4fab-9d57-24c6381cfc0a\",\n        \"employee_name\": \"Hilaria McDermott\",\n        \"employee_salary\": 454568,\n        \"employee_age\": 23,\n        \"employee_title\": \"Government Developer\",\n        \"employee_email\": \"bamity@company.com\"\n    },\n    {\n        \"id\": \"3e08f400-fb2e-4b1d-b49a-9980b4a3e3b2\",\n        \"employee_name\": \"Shakira Larson\",\n        \"employee_salary\": 419301,\n        \"employee_age\": 50,\n        \"employee_title\": \"Chief Technician\",\n        \"employee_email\": \"cardguard@company.com\"\n    },\n    {\n        \"id\": \"f9688e7b-2b83-4c67-8112-a28c2e91bea8\",\n        \"employee_name\": \"Freeman Zboncak\",\n        \"employee_salary\": 41184,\n        \"employee_age\": 60,\n        \"employee_title\": \"Farming Liaison\",\n        \"employee_email\": \"lotstring@company.com\"\n    },\n    {\n        \"id\": \"4552b8da-0d0b-4229-8512-7718bd7eac99\",\n        \"employee_name\": \"Miss Pierre Nitzsche\",\n        \"employee_salary\": 45228,\n        \"employee_age\": 48,\n        \"employee_title\": \"Real-Estate Producer\",\n        \"employee_email\": \"bitwolf@company.com\"\n    },\n    {\n        \"id\": \"39ffcbb7-53f2-49b2-b079-7f6b29116085\",\n        \"employee_name\": \"Raul Olson\",\n        \"employee_salary\": 410689,\n        \"employee_age\": 56,\n        \"employee_title\": \"Government Coordinator\",\n        \"employee_email\": \"gembucket@company.com\"\n    },\n    {\n        \"id\": \"1fdaf3aa-8fe9-4a48-8f27-8c4165e71a04\",\n        \"employee_name\": \"Ranae Sawayn\",\n        \"employee_salary\": 176972,\n        \"employee_age\": 26,\n        \"employee_title\": \"Technology Representative\",\n        \"employee_email\": \"colonelkickass@company.com\"\n    },\n    {\n        \"id\": \"51c666de-9a69-4fd3-bd4e-f6efd657da7b\",\n        \"employee_name\": \"Hal Wehner\",\n        \"employee_salary\": 270156,\n        \"employee_age\": 54,\n        \"employee_title\": \"IT Strategist\",\n        \"employee_email\": \"bitchip@company.com\"\n    },\n    {\n        \"id\": \"3e2874f3-8a5b-4d73-9423-7b990706e5ad\",\n        \"employee_name\": \"Nicolas Lubowitz\",\n        \"employee_salary\": 313670,\n        \"employee_age\": 63,\n        \"employee_title\": \"Marketing Administrator\",\n        \"employee_email\": \"alpha@company.com\"\n    },\n    {\n        \"id\": \"76592734-2494-4a50-b405-7591805022c9\",\n        \"employee_name\": \"Debbra Wisozk DVM\",\n        \"employee_salary\": 201282,\n        \"employee_age\": 23,\n        \"employee_title\": \"International Associate\",\n        \"employee_email\": \"tori_the_taurus@company.com\"\n    },\n    {\n        \"id\": \"ed54249e-672e-4837-8134-37b17d45460a\",\n        \"employee_name\": \"Mrs. Yuri Jenkins\",\n        \"employee_salary\": 253721,\n        \"employee_age\": 21,\n        \"employee_title\": \"Product Real-Estate Developer\",\n        \"employee_email\": \"veribet@company.com\"\n    },\n    {\n        \"id\": \"b3822010-8c1f-4563-bcf3-7b488bac9c12\",\n        \"employee_name\": \"Shirlene Koepp\",\n        \"employee_salary\": 452091,\n        \"employee_age\": 69,\n        \"employee_title\": \"Retail Supervisor\",\n        \"employee_email\": \"stronghold@company.com\"\n    },\n    {\n        \"id\": \"6cf41ee9-df65-48f5-9c68-9460302ea3e6\",\n        \"employee_name\": \"Josef Hoppe\",\n        \"employee_salary\": 234422,\n        \"employee_age\": 36,\n        \"employee_title\": \"National Advertising Agent\",\n        \"employee_email\": \"littlemomma03@company.com\"\n    },\n    {\n        \"id\": \"32b02908-50db-481d-8b67-5b3ad98d9b51\",\n        \"employee_name\": \"Donnell Jacobi\",\n        \"employee_salary\": 451221,\n        \"employee_age\": 51,\n        \"employee_title\": \"Sales Executive\",\n        \"employee_email\": \"tempsoft@company.com\"\n    },\n    {\n        \"id\": \"ba80fe59-24c7-479c-8854-03c283119b56\",\n        \"employee_name\": \"Lizeth Von III\",\n        \"employee_salary\": 435866,\n        \"employee_age\": 39,\n        \"employee_title\": \"Sales Coordinator\",\n        \"employee_email\": \"span@company.com\"\n    },\n    {\n        \"id\": \"305b4d99-d7c0-434e-ac75-96859d35685e\",\n        \"employee_name\": \"Dr. Laurene Runolfsdottir\",\n        \"employee_salary\": 188597,\n        \"employee_age\": 47,\n        \"employee_title\": \"Manufacturing Administrator\",\n        \"employee_email\": \"keylex@company.com\"\n    },\n    {\n        \"id\": \"d7244e16-bbfa-46a8-b74b-3179d00c9cf5\",\n        \"employee_name\": \"Nisha Waters\",\n        \"employee_salary\": 56294,\n        \"employee_age\": 62,\n        \"employee_title\": \"Real-Estate Associate\",\n        \"employee_email\": \"2legit2quit@company.com\"\n    },\n    {\n        \"id\": \"1b27f12d-ad1b-449b-b915-886bccaf9325\",\n        \"employee_name\": \"Govind C\",\n        \"employee_salary\": 70000,\n        \"employee_age\": 17,\n        \"employee_title\": \"SDE\",\n        \"employee_email\": \"holdlamis@company.com\"\n    },\n    {\n        \"id\": \"6d4a96e8-6221-4f9e-9231-309947c38aef\",\n        \"employee_name\": \"Govind C\",\n        \"employee_salary\": 70000,\n        \"employee_age\": 17,\n        \"employee_title\": \"SDE\",\n        \"employee_email\": \"fixsan@company.com\"\n    },\n    {\n        \"id\": \"7072259e-92b0-4bf7-9fdf-1d8633e3c6ff\",\n        \"employee_name\": \"Govind C\",\n        \"employee_salary\": 70000,\n        \"employee_age\": 17,\n        \"employee_title\": \"SDE\",\n        \"employee_email\": \"alpha@company.com\"\n    },\n    {\n        \"id\": \"39f8c892-393d-44d7-8a1d-6519d2b61a78\",\n        \"employee_name\": \"Govind C\",\n        \"employee_salary\": 70000,\n        \"employee_age\": 17,\n        \"employee_title\": \"SDE\",\n        \"employee_email\": \"alphazap@company.com\"\n    },\n    {\n        \"id\": \"77fb0417-6fc6-43a2-bd73-2bd7d01cc4cb\",\n        \"employee_name\": \"Govind C\",\n        \"employee_salary\": 70000,\n        \"employee_age\": 17,\n        \"employee_title\": \"SDE\",\n        \"employee_email\": \"bytecard@company.com\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get Employee by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8111/api/v1/employee/d7244e16-bbfa-46a8-b74b-3179d00c9cf5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8111",
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"d7244e16-bbfa-46a8-b74b-3179d00c9cf5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8111/api/v1/employee/d7244e16-bbfa-46a8-b74b-3179d00c9cf5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8111",
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"d7244e16-bbfa-46a8-b74b-3179d00c9cf5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 15:16:42 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"d7244e16-bbfa-46a8-b74b-3179d00c9cf5\",\n    \"employee_name\": \"Nisha Waters\",\n    \"employee_salary\": 56294,\n    \"employee_age\": 62,\n    \"employee_title\": \"Real-Estate Associate\",\n    \"employee_email\": \"2legit2quit@company.com\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Create Employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Miachel John\",\r\n  \"title\": \"Software Architect\",\r\n  \"salary\": 70000,\r\n  \"age\": 35\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8111/api/v1/employee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8111",
+					"path": [
+						"api",
+						"v1",
+						"employee"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Miachel John\",\r\n  \"title\": \"Software Architect\",\r\n  \"salary\": 70000,\r\n  \"age\": 35\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8111/api/v1/employee",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8111",
+							"path": [
+								"api",
+								"v1",
+								"employee"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 15:19:37 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"d0020189-a04b-470d-988b-58cc56aad039\",\n    \"employee_name\": \"Miachel John\",\n    \"employee_salary\": 70000,\n    \"employee_age\": 35,\n    \"employee_title\": \"Software Architect\",\n    \"employee_email\": \"teejay_thompson@company.com\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Employee by ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8111/api/v1/employee/d0020189-a04b-470d-988b-58cc56aad039",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8111",
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"d0020189-a04b-470d-988b-58cc56aad039"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8111/api/v1/employee/d0020189-a04b-470d-988b-58cc56aad039",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8111",
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"d0020189-a04b-470d-988b-58cc56aad039"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "30"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 15:20:56 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Employee deleted successfully."
+				}
+			]
+		},
+		{
+			"name": "Get Employee by Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8111/api/v1/employee/search/Waters",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8111",
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"search",
+						"Waters"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8111/api/v1/employee/search/Waters",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8111",
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"search",
+								"Waters"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 15:22:34 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"d7244e16-bbfa-46a8-b74b-3179d00c9cf5\",\n        \"employee_name\": \"Nisha Waters\",\n        \"employee_salary\": 56294,\n        \"employee_age\": 62,\n        \"employee_title\": \"Real-Estate Associate\",\n        \"employee_email\": \"2legit2quit@company.com\"\n    }\n]"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8111/api/v1/employee/search/Waters",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8111",
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"search",
+								"Waters"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 15:32:37 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"d7244e16-bbfa-46a8-b74b-3179d00c9cf5\",\n        \"employee_name\": \"Nisha Waters\",\n        \"employee_salary\": 56294,\n        \"employee_age\": 62,\n        \"employee_title\": \"Real-Estate Associate\",\n        \"employee_email\": \"2legit2quit@company.com\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Top 10 Highest Earning",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8111/api/v1/employee/topTenHighestEarningEmployeeNames",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8111",
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"topTenHighestEarningEmployeeNames"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8111/api/v1/employee/topTenHighestEarningEmployeeNames",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8111",
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"topTenHighestEarningEmployeeNames"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 15:33:17 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    \"Damien Gerhold\",\n    \"My Hermiston\",\n    \"Bart Fadel V\",\n    \"Isaiah Medhurst\",\n    \"Gerry Christiansen\",\n    \"Hilaria McDermott\",\n    \"Shirlene Koepp\",\n    \"Dr. Nilda Spencer\",\n    \"Donnell Jacobi\",\n    \"Jacqualine Sauer\"\n]"
+				}
+			]
+		},
+		{
+			"name": "Highest Salary",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8111/api/v1/employee/highestSalary",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8111",
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"highestSalary"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8111/api/v1/employee/highestSalary",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8111",
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"highestSalary"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Feb 2025 15:33:52 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "494917"
+				}
+			]
+		}
+	]
+}
